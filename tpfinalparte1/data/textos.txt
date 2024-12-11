@@ -1,0 +1,16 @@
+Need For Speed
+Tobey es un mecánico y corredor callejero talentoso, determinado a hacer justicia. Leal y reservado, busca vengar la muerte de su amigo y limpiar su nombre tras ser incriminado.
+"La De León" es una carrera ilegal de alto riesgo entre autos exóticos en carreteras abiertas. Solo los mejores pilotos compiten, y el ganador se lleva todo. ¿Te atreves a participar?
+Tobey decide no participar en la carrera y regresa a su vida como mecánico, trabajando en su taller con su equipo. Aunque siente la carga de la injusticia, prefiere dejar el pasado atrás y concentrarse en arreglar autos
+Tienes acceso a dos autos de alto rendimiento. ¿Cuál eliges?
+Antes de la carrera, pasas por el taller mecánico. ¿Quieres modificar tu auto?
+¡Tu auto ha sido modificado con éxito!
+La carrera ha comenzado, prepárate!
+Debes apresurarte para llegar a la meta. ¿Qué camino eliges?
+La policía te está persiguiendo, ¡ten cuidado!
+Has cruzado la meta, pero la policía te obliga a detenerte. ¿Qué harás?
+Aceptas las consecuencias legales
+Te entregas y enfrentas las consecuencias. Además logras demostrar tu inocencia tras ser incriminado, pero terminas arrestado (final original de la película)
+Te enfrentas a la policía e intentas escapar a toda velocidad
+La policía te ha rodeado, no tienes escapatoria. ¡La carrera está perdida! El ganador será tu oponente.
+Leandro Isasi, Facundo Cristóbal - Comisión 5 - Autor: Scott Waugh
