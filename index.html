@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need for Speed: La Película</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-dark text-white p-3">
+        <h1 class="text-center">Need for Speed: La Película</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#tematica">Temática</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#produccion">Producción</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#equipo">Equipo</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#videojuego">Videojuego</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tematica" class="container py-4">
+        <h2>Sobre la Película</h2>
+        <p>Basada en la famosa saga de videojuegos, Need for Speed combina la adrenalina de las carreras con una narrativa cautivadora...</p>
+        <img src="images/tematica.jpg" alt="Carrera de autos" class="img-fluid" style="margin-left: 300px">
+    </section>
+
+    <section id="equipo" class="container py-4">
+        <h2>El Equipo</h2>
+        <h3>Trabajo Practico</h3>
+        <p>El trabajo fue relizado por Leandro Isasi y Facundo Cristobal de la comision 5.</p>
+        <img src="images/Lean.png" alt="Equipo de la trabajo" class="img-fluid" style="width: 180px; height: 500px; margin-left: 200px; object-fit: cover;">
+        <img src="images/Facu.jpeg" alt="Equipo de la trabajo" class="img-fluid" style="width: 250px; height: 500px; margin-left: 400px; object-fit: cover;">
+        
+
+        <h3>Reparto Principal de la pelicula</h3>
+        <ul>
+            <li><strong>Aaron Paul</strong> como Tobey Marshall</li>
+            <li><strong>Dominic Cooper</strong> como Dino Brewster</li>
+            <li><strong>Imogen Poots</strong> como Julia Maddon</li>
+        </ul>
+        <img src="images/equipo.png" alt="Equipo de la película" class="img-fluid" style= "margin-left: 300px">
+    </section>
+
+    <section id="videojuego" class="container py-4">
+        <h2>Videojuego</h2>
+        <p>El videojuego Need for Speed fue la inspiración principal para la película...</p>
+        <img src="images/videojuego.jpg" alt="Videojuego Need for Speed" class="img-fluid" style="margin-left: 300px">
+        
+        <!-- Botón para abrir el modal -->
+        <button id="openModal" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#gameModal">
+            Jugar al Videojuego
+        </button>
+    </section>
+
+    <!-- Modal con iframe -->
+    <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gameModalLabel">Juego: Need for Speed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Asegúrate de que la ruta al index del juego sea correcta -->
+                    <iframe id="gameIframe" src="tpfinalparte2/index.html" frameborder="0" style="width: 100%; height: 480px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Need for Speed: La Película. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        // No es necesario hacer nada en el script porque Bootstrap maneja el comportamiento del modal automáticamente
+    </script>
+</body>
+</html>
